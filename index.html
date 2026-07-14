@@ -132,6 +132,8 @@
 
   /* ---------- PROBLEM ---------- */
   .problems{padding:80px 0;}
+  .problems .section-head{max-width:none;text-align:center;}
+  .problems .section-head p{white-space:nowrap;}
   .problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
   .problem-card{
     background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
@@ -290,6 +292,7 @@
     .product-top h2{white-space:normal;word-break:keep-all;}
     .sim .section-head h2,
     .sim .section-head p{white-space:normal;word-break:keep-all;}
+    .problems .section-head p{white-space:normal;word-break:keep-all;}
     .terms-box{grid-template-columns:1fr;}
     .sim-top{grid-template-columns:1fr;}
     .tier-strip{grid-template-columns:repeat(2,1fr);}
